@@ -18,43 +18,38 @@
   <main class="main">
     <div class="image-container">
       <div class="image">
-        <img class="image-hidden" src="../images/image-header-desktop.jpg" alt="women working in open office space">
-
-
-  <!-- <picture class="image">
-    <source 
-       media="(min-width: 650px)"
-       srcset="images/image-header-desktop.jpg">
-    <source 
-       media="(min-width: 465px)"
-       srcset="images/image-header-mobile.jpg">
-    <img src="images/image-header-mobile.jpg" 
-    alt="Women working in open office space">
- </picture> -->
-
+        <!-- <img class="image-hidden" src="images/image-header-desktop.jpg" alt="women working in open office space"> -->
+        <!-- 
+          image-header-desktop.jpg: 540x446
+          image-header-mobile.jpg: 654x480
+         -->
+        <img 
+          class="image-hidden"
+          src="images/image-header-desktop.jpg"
+          alt="women working in open office space"
+          srcset="images/image-header-desktop.jpg 540w, images/image-header-mobile.jpg 654w"
+          sizes="(max-width: 465px) 654px, (min-width: 466px) 540px">
 
       </div>
     </div>
 
-    <div class="card">
-      <h1>Get <strong>insights</strong> that help your business grow.</h1>
-      <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-        experience, and overall efficiency.
-      </p>
-      <div class="summary">
-        <div class="summary-element">
-          <div class="summary-title">10k+</div>
-          <div class="summary-word">COMPANIES</div>          
-        </div>
-        <div class="summary-element">
-          <div class="summary-title">314</div>
-          <div class="summary-word">TEMPLATES</div>          
-        </div>
-        <div class="summary-element">
-          <div class="summary-title">12M+</div>
-          <div class="summary-word">QUERIES</div>          
-        </div>  
+    <h1>Get <strong>insights</strong> that help your business grow.</h1>
+    <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+      experience, and overall efficiency.
+    </p>
+    <div class="summary">
+      <div class="summary-element">
+        <div class="summary-title">10k+</div>
+        <div class="summary-word">COMPANIES</div>          
       </div>
+      <div class="summary-element">
+        <div class="summary-title">314</div>
+        <div class="summary-word">TEMPLATES</div>          
+      </div>
+      <div class="summary-element">
+        <div class="summary-title">12M+</div>
+        <div class="summary-word">QUERIES</div>          
+      </div>  
     </div>
   </main>
 
@@ -64,20 +59,6 @@
       Coded by <a href="#">Erland van Olmen</a>.
     </div>  
   </footer>
-
-<!-- 
-  <div class="flexbox-container">
-    <div class="flexbox-container wrap-reverse">
-      <div class="flexbox-item-1">
-        <p>flexbox-item-1</p>
-      </div>
-      <div class="flexbox-item-2">
-        <p>flexbox-item-2</p>
-        
-      </div>
-    </div>
-  </div>
- -->
 
 </body>
 </html>
