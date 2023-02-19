@@ -22,8 +22,8 @@ body {
   color: white;
   border-radius: .75rem;
   overflow: hidden;
-  width: 86%;
-  margin: 6rem auto;
+  max-width: 452px;
+  margin: 6rem 1.5rem;
 }
 
 .image-container {
@@ -106,18 +106,25 @@ footer {
 }
 
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 500px) {
+  .main {
+    margin: 6rem auto;
+  }
+
   .summary-element {
     width: 30%;
   }
+
 }
 
 @media screen and (min-width: 1024px) {
 
-  main {
-    width: inherit;
+  .main {
+    margin-top: 10rem;
     min-width: 320px;
-    max-width: 1024px;    
+    max-width: 900px;  
+    height: 372px;
+
   }
 
   .image-container {
@@ -152,12 +159,8 @@ footer {
   }
 
   p {
-    font-size: .7rem;    
+    font-size: .75rem;    
   }
-  
-  /* .summary-element {
-    margin-top: 2rem;
-  } */
 
   footer {
     position: absolute;
