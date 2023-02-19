@@ -107,6 +107,7 @@ footer {
 
 
 @media screen and (min-width: 500px) {
+
   .main {
     margin: 6rem auto;
   }
@@ -114,17 +115,13 @@ footer {
   .summary-element {
     width: 30%;
   }
-
 }
 
 @media screen and (min-width: 1024px) {
 
   .main {
     margin-top: 10rem;
-    min-width: 320px;
     max-width: 900px;  
-    height: 372px;
-
   }
 
   .image-container {
@@ -132,7 +129,7 @@ footer {
     float: right;
     overflow: hidden;
     width: 50%;
-    height: max-content;
+    height: 100%;
 
     background-blend-mode: multiply; 
     background: url('../images/image-header-desktop.jpg') hsl(277, 64%, 61%);
