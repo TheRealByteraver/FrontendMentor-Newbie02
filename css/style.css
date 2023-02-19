@@ -121,7 +121,7 @@ footer {
   }
 
   .image-container {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     float: right;
     overflow: hidden;
     width: 50%;
@@ -148,16 +148,16 @@ footer {
     padding: 3rem 3rem 0 3rem;
     text-align: left;
     width: 50%;
-    border: 2px solid green;
+    /* border: 2px solid green; */
   }
 
   p {
     font-size: .7rem;    
   }
   
-  .summary-element {
-    /* margin-top: 2rem; */
-  }
+  /* .summary-element {
+    margin-top: 2rem;
+  } */
 
   footer {
     position: absolute;
